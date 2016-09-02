@@ -1,6 +1,7 @@
 # MazeLab
-Generate, view and save meshes of 3D mazes with OCaml.
-This MazeLab module uses my `Plot3D` module ([repository here](https://github.com/Bleuje/ocaml-mesh-plot)).
+Generate, view and save meshes of 3-dimensional perfect mazes with OCaml. There's no game here, so those "mazes" are arguably just trees between graph nodes...
+
+This "MazeLab" module uses my `Plot3D` module ([repository here](https://github.com/Bleuje/ocaml-mesh-plot)).
 
 ## Quick example
 
