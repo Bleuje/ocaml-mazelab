@@ -79,3 +79,4 @@ After converting the files from OFF to PLY, they can be used in blender...
 ![image](https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/nice3mini.jpg)
 ![image](https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/bigarc2mini.jpg)
 ![image](https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/tree3mini.jpg)
+![image](https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/stylishmini.jpg)
