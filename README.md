@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/header.jpg">
+</p>
+
 # MazeLab
 Generate, view and save meshes of 3-dimensional perfect mazes with OCaml. There's no game here, so those "mazes" are arguably just trees between graph nodes...
 
@@ -19,7 +23,9 @@ plotMesh Plot3D.defaultSettings myBasicMesh;;
 ```
 Result :
 
-![image](https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/basic_cube.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/basic_cube.jpg">
+</p>
 
 The mesh can be saved in OFF format, and it is easy/faster to plot on MeshLab.
 
@@ -36,7 +42,9 @@ type mazeStyle = DFS | BFS | DFS_tore_x | BFS_tore_x
 ```
 You can generate a maze where the first dimension is on a tore :
 
-![image](https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/toreMaze.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/toreMaze.jpg">
+</p>
 
 ## More advanced mazes
 
@@ -71,12 +79,14 @@ This projects the maze on a sphere (can take a little time)...
 
 So far my 3d plot doesn't work very well with objects behind the camera, but you can look inside a spherical maze by opening the OFF file with MeshLab :
 
-![image](https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/meshlab-insidesphere2.jpg)
+[View in MeshLab](https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/meshlab-insidesphere2.jpg)
 
 ## Application : render with blender
 After converting the files from OFF to PLY, they can be used in blender...
 
-![image](https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/nice3mini.jpg)
-![image](https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/bigarc2mini.jpg)
-![image](https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/tree3mini.jpg)
-![image](https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/stylishmini.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/nice3mini.jpg">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/bigarc2mini.jpg">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/tree3mini.jpg">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/stylishmini.jpg">
+</p>
