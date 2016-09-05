@@ -93,9 +93,11 @@ After converting the files from OFF to PLY, they can be used in blender...
   Using the generated mesh to carve into another mesh :
   <br />
   <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/realworld3.jpg">
+  <br />
   With a path :
+  <br />
   <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/pathmini.jpg">
-  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/towermini.jpg">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/towermini2.jpg">
   <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/tower2mini.jpg">
 </p>
 
