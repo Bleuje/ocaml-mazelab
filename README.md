@@ -93,6 +93,10 @@ After converting the files from OFF to PLY, they can be used in blender...
   Using the generated mesh to carve into another mesh :
   <br />
   <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/realworld3.jpg">
+  With a path :
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/pathmini.jpg">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/towermini.jpg">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/tower2mini.jpg">
 </p>
 
 [Source for the mesh of human body](http://opengameart.org/content/base-human-models-low-poly)
