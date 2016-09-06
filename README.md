@@ -38,7 +38,7 @@ This generates a maze of size size_x\*size_y\*size_z with the style `DFS` and a 
 ## Styles of mazes
 So far :
 ``` ocaml
-type mazeStyle = DFS | BFS | DFS_tore_x | BFS_tore_x
+type mazeStyle = DFS | BFS | DFS_tore_x | BFS_tore_x | DFS_tore_xy | BFS_tore_xy
 ```
 You can generate a maze where the first dimension is on a tore :
 
@@ -105,6 +105,8 @@ After converting the files from OFF to PLY, they can be used in blender...
   <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/rotatemini.jpg">
   <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/rotate1mini.jpg">
   <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/rotate2mini.jpg">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/untitled6mini.jpg">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/untitled7mini.jpg">
 </p>
 
 [Source for the mesh of human body](http://opengameart.org/content/base-human-models-low-poly)
