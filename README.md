@@ -107,6 +107,8 @@ After converting the files from OFF to PLY, they can be used in blender...
   <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/rotate2mini.jpg">
   <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/untitled6mini.jpg">
   <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/untitled7mini.jpg">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/donutmini.jpg">
+  <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/tore2mini.png">
 </p>
 
 [Source for the mesh of human body](http://opengameart.org/content/base-human-models-low-poly)
