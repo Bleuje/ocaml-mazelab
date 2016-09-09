@@ -57,11 +57,16 @@ module MazeLab = struct
             add := - 8*n;
         if (i+di<0) then
             add :=  8*n;
+    let add2 = ref 0 in
+        if (j+dj=m) then
+            add2 := - 8*n*m;
+        if (j+dj<0) then
+            add2 :=  8*n*m;
     match (di,dj,dk) with
     | (-1,0,0) -> (addToArray (8*(i+n*j+n*m*k)) [|1-8 + !add;0;3-8 + !add;2;5-8 + !add;4;7-8 + !add;6|],[|2;3;4;5|])
     | (1,0,0) -> (addToArray (8*(i+n*j+n*m*k)) [|1;0+8 + !add;3;2+8 + !add;5;4+8 + !add;7;6+8 + !add|],[|2;3;4;5|])
-    | (0,-1,0) -> (addToArray (8*(i+n*j+n*m*k)) [|2-8*n;3-8*n;0;1;6-8*n;7-8*n;4;5|],[|0;1;4;5|])
-    | (0,1,0) -> (addToArray (8*(i+n*j+n*m*k)) [|2;3;0+8*n;1+8*n;6;7;4+8*n;5+8*n|],[|0;1;4;5|])
+    | (0,-1,0) -> (addToArray (8*(i+n*j+n*m*k)) [|2-8*n + !add2;3-8*n + !add2;0;1;6-8*n + !add2;7-8*n + !add2;4;5|],[|0;1;4;5|])
+    | (0,1,0) -> (addToArray (8*(i+n*j+n*m*k)) [|2;3;0+8*n + !add2;1+8*n + !add2;6;7;4+8*n + !add2;5+8*n + !add2|],[|0;1;4;5|])
     | (0,0,-1) -> (addToArray (8*(i+n*j+n*m*k)) [|4-8*n*m;5-8*n*m;6-8*n*m;7-8*n*m;0;1;2;3|],[|0;1;2;3|])
     | (0,0,1) -> (addToArray (8*(i+n*j+n*m*k)) [|4;5;6;7;0+8*n*m;1+8*n*m;2+8*n*m;3+8*n*m|],[|0;1;2;3|])
     | _ -> ([|0;0;0;0;0;0;0;0|],[|0;0;0;0|])
