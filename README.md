@@ -40,7 +40,7 @@ So far :
 ``` ocaml
 type mazeStyle = DFS | BFS | DFS_tore_x | BFS_tore_x | DFS_tore_xy | BFS_tore_xy
 ```
-You can generate a maze where the first dimension is on a tore :
+You can generate a maze where the first dimension is on a torus :
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Bleuje/ocaml-mazelab/master/pictures/toreMaze.jpg">
